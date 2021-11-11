@@ -1,0 +1,88 @@
+@media (max-width: 1200px) {
+    .wrapper {
+        max-width: 933px;
+    }
+
+    .game{
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .wrapper {
+        flex-direction: column-reverse;
+        box-shadow: none;
+        max-width: 760px;
+    }
+
+    .main {
+        padding: 40px;
+    }
+
+    .aside {
+        width: 100%;
+    }
+
+    .main__top {
+        display: none;
+    }
+
+    .aside__top {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .aside__subtitle {
+        color: #0B0B0B;
+    }
+
+    .aside__inner {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .aside__contacts, .aside__tech-skills {
+        margin-bottom: 0;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .wrapper{
+        max-width: 100%;
+    }
+    .main{
+        padding: 20px 40px;
+    }
+
+    .aside__title span {
+        font-size: 15px;
+        display: inline-block;
+    }
+
+    .about{
+        padding-top: 0;
+    }
+
+    .aside__inner{
+        justify-content: space-around;
+    }
+
+    .aside__contacts{
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .aside__contacts,
+    .aside__tech-skills,
+    .aside__soft-skills{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .aside__list-none{
+        display: none;
+    }
+}
