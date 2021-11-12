@@ -10,7 +10,7 @@ const asideTitleSoft = document.querySelector('#aside__title-soft');
 const asideListSoft = document.querySelector('#aside__list-soft');
 const board = document.querySelector('#board');
 const colors = ['#03fc8c', '#8cfc03', '#fc9403', '#63b4ff', '#ff3de2', '#ff002f', '#366139']
-const SQARES_NUMBER = 500;
+const SQUARES_NUMBER = 510;
 
 aboutTitle.addEventListener('click', () => {
    aboutText.classList.toggle('about__text-active')
@@ -32,7 +32,7 @@ asideTitleSoft.addEventListener('click', () => {
    asideListSoft.classList.toggle('aside__list-none');
 })
 
-for (let i = 0; i < SQARES_NUMBER; i++) {
+for (let i = 0; i < SQUARES_NUMBER; i++) {
    const square = document.createElement('div');
    square.classList.add('square');
 

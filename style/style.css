@@ -101,6 +101,11 @@ body {
     color: #595959;
 }
 
+.education,
+.work{
+    margin-bottom: 50px;
+}
+
 .education__title,
 .work__title {
     font-weight: bold;
@@ -126,7 +131,7 @@ body {
     height: 16px;
     background-color: #1d1d1d;
     margin: 2px;
-    box-shadow: 0 0 2 #000;
+    box-shadow: 0 0 2px #000000;
     transition: 4s ease;
 }
 

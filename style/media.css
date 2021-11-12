@@ -1,9 +1,10 @@
 @media (max-width: 1200px) {
     .wrapper {
         max-width: 933px;
+        margin: 0 auto;
     }
 
-    .game{
+    .game {
         display: none;
     }
 }
@@ -47,14 +48,33 @@
         margin-bottom: 0;
     }
 
+    .projects,
+    .work,
+    .about {
+        margin-bottom: 20px;
+    }
+
+    .main__title {
+        font-size: 30px;
+    }
+
+    .about__text {
+        font-size: 20px;
+    }
+
 }
 
 @media (max-width: 768px) {
-    .wrapper{
+    .wrapper {
         max-width: 100%;
     }
-    .main{
+
+    .main {
         padding: 20px 40px;
+    }
+
+    .main__title-name {
+        font-size: 35px;
     }
 
     .aside__title span {
@@ -62,15 +82,15 @@
         display: inline-block;
     }
 
-    .about{
+    .about {
         padding-top: 0;
     }
 
-    .aside__inner{
+    .aside__inner {
         justify-content: space-around;
     }
 
-    .aside__contacts{
+    .aside__contacts {
         margin-right: 30px;
     }
 }
@@ -78,11 +98,20 @@
 @media (max-width: 576px) {
     .aside__contacts,
     .aside__tech-skills,
-    .aside__soft-skills{
+    .aside__soft-skills {
         width: 100%;
         margin-bottom: 30px;
     }
-    .aside__list-none{
+
+    .main__title-click{
+        margin-left: 10px;
+    }
+
+    .main__title-name{
+        font-size: 25px;
+    }
+
+    .aside__list-none {
         display: none;
     }
 }
